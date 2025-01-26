@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zeytuun Restaurant</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>
+        <a href="index.html" class="text-decoration-none text-white"
+          >Zeytuun Restaurant</a
+        >
+      </h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2 bg-transparent border-0 text-white"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <div
+      class="hero-banner text-white text-center d-flex align-items-center justify-content-center"
+      style="
+        height: 70vh;
+        background: url('../images/360_F_260128861_Q2ttKHoVw2VrmvItxyCVBnEyM1852MoJ.jpg')
+          center/cover;
+      "
+    >
+      <div class="container">
+        <h1 class="display-3">Welcome to Zeytuun</h1>
+        <p class="lead">
+          Discover the authentic flavours of Somalia in the heart of London.
+        </p>
+      </div>
+    </div>
+
+    <!-- Gallery -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Our Dishes</h2>
+        <div class="row g-4">
+          <div class="col-md-3">
+            <img
+              src="images/images-photo1.jpeg"
+              alt="Bariis with Lamb"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+          <div class="col-md-3">
+            <img
+              src="images/images-photo2.jpg"
+              alt="Canjeero and Beef Stew"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+          <div class="col-md-3">
+            <img
+              src="images/images-photo3.webp"
+              alt="Sambusa"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+          <div class="col-md-3">
+            <img
+              src="images/images-photo4.webp"
+              alt="Malawah with Honey"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a href="menu.html" class="btn btn-outline-warning">View Full Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5 bg-warning text-dark">
+      <div class="container">
+        <h2 class="text-center">Contact Us</h2>
+        <p class="text-center">
+          We'd love to hear from you! Visit us or get in touch using the details
+          below:
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <h3>Visit Us</h3>
+            <address>
+              <strong>Zeytuun Restaurant</strong><br />
+              106A Kilburn High Road, London NW6 4HY<br />
+              Phone: <a href="tel:+442012345678">+44 20 1234 5678</a><br />
+              Email: <a href="mailto:info@zeytuun.com">info@zeytuun.com</a>
+            </address>
+          </div>
+          <div class="col-md-6 text-center">
+            <h3>Follow Us</h3>
+            <div class="d-flex justify-content-center gap-3">
+              <a
+                href="https://www.facebook.com/zeytuun"
+                target="_blank"
+                class="social-icon fs-3"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/zeytuun"
+                target="_blank"
+                class="social-icon fs-3"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.twitter.com/zeytuun"
+                target="_blank"
+                class="social-icon fs-3"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/zeytuun"
+                target="_blank"
+                class="social-icon fs-3"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2025 Zeytuun Restaurant. All rights reserved.</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
